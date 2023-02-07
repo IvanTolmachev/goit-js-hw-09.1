@@ -1,9 +1,8 @@
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
+require('flatpickr/dist/themes/light.css');
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { Report } from 'notiflix/build/notiflix-report-aio';
-import { Notify } from 'notiflix/build/notiflix-Notify-aio';
-
-require('flatpickr/dist/themes/material_blue.css');
 
 const inputEl = document.querySelector('#datetime-picker');
 const spanValue = document.querySelectorAll('.value');
