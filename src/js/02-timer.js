@@ -8,6 +8,7 @@ const inputEl = document.querySelector('#datetime-picker');
 const spanValue = document.querySelectorAll('.value');
 const startBtn = document.querySelector('button[data-start]');
 startBtn.disabled = true;
+let selectedDate = null;
 
 function addLeadingZero(value) {
   return String(value).padStart(2, '0');
